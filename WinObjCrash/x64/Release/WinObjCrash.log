@@ -1,0 +1,29 @@
+﻿Build started 5/9/2021 8:06:57 PM.
+     1>Project "c:\Users\walied\Documents\Visual Studio 2012\Projects\WinObjCrash\WinObjCrash\WinObjCrash.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\WinObjCrash.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt WinObjCrash.cpp
+         WinObjCrash.cpp
+     1>WinObjCrash.cpp(20): warning C4996: '_ultow': This function or variable may be unsafe. Consider using _ultow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(899) : see declaration of '_ultow'
+     1>WinObjCrash.cpp(29): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1025) : see declaration of 'wcscpy'
+     1>WinObjCrash.cpp(30): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1018) : see declaration of 'wcscat'
+     1>WinObjCrash.cpp(31): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1018) : see declaration of 'wcscat'
+     1>WinObjCrash.cpp(32): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1018) : see declaration of 'wcscat'
+     1>WinObjCrash.cpp(37): warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>WinObjCrash.cpp(55): warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>WinObjCrash.cpp(76): warning C4010: single-line comment contains line-continuation character
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\walied\Documents\Visual Studio 2012\Projects\WinObjCrash\x64\Release\WinObjCrash.exe" /INCREMENTAL:NO /NOLOGO ntdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\Users\walied\Documents\Visual Studio 2012\Projects\WinObjCrash\x64\Release\WinObjCrash.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Users\walied\Documents\Visual Studio 2012\Projects\WinObjCrash\x64\Release\WinObjCrash.lib" /MACHINE:X64 x64\Release\stdafx.obj
+         x64\Release\WinObjCrash.obj
+         Generating code
+         Finished generating code
+         WinObjCrash.vcxproj -> c:\Users\walied\Documents\Visual Studio 2012\Projects\WinObjCrash\x64\Release\WinObjCrash.exe
+     1>Done Building Project "c:\Users\walied\Documents\Visual Studio 2012\Projects\WinObjCrash\WinObjCrash\WinObjCrash.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.98
